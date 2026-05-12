@@ -31,13 +31,13 @@
                   data2 = data2.dropna(subset=['Monthly_Balance'])
 
 ## 6. EDA 
-  정답값으로 쓰려는 Credit_Score에 결측치가 하나 존재했는데 Monthly_Balance역시 결측치가 존재해서 
+  - 정답값으로 쓰려는 Credit_Score에 결측치가 하나 존재했는데 Monthly_Balance역시 결측치가 존재해서 
 결측치는 제거하고 보았습니다.
- 값들중에서 로그변환이 필요해보이는 값을이 존재했는데 분류학습을 더 잘 학습하기위해
+ - 값들중에서 로그변환이 필요해보이는 값을이 존재했는데 분류학습을 더 잘 학습하기위해
 로그변환을 씌우고 진행했습니다. <img width="836" height="626" alt="딥러닝 로그변환 이유" src="https://github.com/user-attachments/assets/ed123875-e893-4e7c-a11c-11f3bc5e7cd5" />
 
 ## 7. FeatureSelection 및 모델 선정기준
-  정답값과 크게 상관을 보이는 컬럼들이 없어서 모든 컬럼을 X값으로 넣었습니다.
+  - 정답값과 크게 상관을 보이는 컬럼들이 없어서 모든 컬럼을 X값으로 넣었습니다.
   <img width="585" height="616" alt="상관계수" src="https://github.com/user-attachments/assets/eea6420e-be3f-422b-801a-ec333c7ae956" />
 
 
