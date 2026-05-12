@@ -8,11 +8,11 @@
 2026/05/12
 
 ## 3. 기술스택 
-  - 데이터 전처리: Pandas, NumPy, Scikit-learn
+  - 데이터 전처리: Pandas, NumPy, Torch
 
-  - 모델링/최적화: PyCaret, Optuna, LightGBM, CatBoost, AdaBoost
+  - 모델링/최적화: TabTransFormer
 
-  - 시각화/해석: SHAP, Matplotlib
+  - 시각화/해석: Matplotlib
 
 ## 4. 데이터 출처 : 캐글 Bank Customer Churn Dataset (row: 10000, col:12)raw데이터-(Credit score classification)
 
